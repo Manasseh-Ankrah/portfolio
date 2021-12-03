@@ -2,14 +2,13 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* overflow-x: auto; */
 }
 
 .home__animation {
   width: 100vw;
   height: 80vh;
   background-color: turquoise;
-  /* #151435 */
-
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +35,6 @@
 .home__text > p {
   font-size: 16px;
   color: #fff;
-  /* display: block; */
   margin-bottom: 30px;
 }
 
@@ -66,6 +64,129 @@
 }
 
 .home__section {
-  margin-top: 130px;
-  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 130px !important;
+  /* margin-top: 10%; */
+  background-color: rgb(223, 213, 213);
+  /* #121127 */
+  height: 150px;
+  width: 100vw;
 }
+
+.home__section__image {
+  flex: 0.5;
+  height: 160px;
+  background-color: white;
+}
+
+.home__section__text {
+  flex: 0.5;
+  height: 160px;
+  background-color: #151349;
+}
+
+@media screen and (max-width: 600px) {
+  .home__animation {
+    width: 100vw;
+    height: 70vh;
+    background-color: turquoise;
+    /* #151435 */
+  }
+
+  .home__text > h2 {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .home__btn__port {
+    width: 150px;
+    height: 45px;
+    background-color: #121127 !important;
+    margin-right: 15px !important;
+  }
+
+  .home__btn__contact {
+    width: 150px;
+    height: 45px;
+    background-color: #fe3e57 !important;
+  }
+
+  .home__text > p {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .home__animation {
+    width: 100vw;
+    height: 100vh;
+    background-color: turquoise;
+    /* #151435 */
+  }
+
+  .home__text {
+    margin-top: 180px;
+  }
+
+  .home__text > h2 {
+    font-size: 35px;
+    line-height: 60px;
+  }
+  .home__btn__port {
+    width: 120px;
+    height: 45px;
+    background-color: #121127 !important;
+    margin-right: 15px !important;
+  }
+
+  .home__btn__contact {
+    width: 120px;
+    height: 45px;
+    background-color: #fe3e57 !important;
+  }
+
+  .home__text > p {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .home__text {
+    margin-top: 180px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .home__text {
+    margin-top: 160px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .home__text {
+    margin-top: 100px;
+  }
+}
+
+/* For Section */
+
+/* @media screen and (max-width: 430px) {
+  .home__section {
+    margin-top: 320px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home__section {
+    margin-top: 220px !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .home__section {
+    margin-top: 180px;
+  }
+} */

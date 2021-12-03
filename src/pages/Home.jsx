@@ -35,7 +35,11 @@ function Home() {
       </div>
 
       <div className="home__section">
-        <h4 style={{ color: "black" }}>hello</h4>
+        <div className="home__section__image">hello</div>
+        <div className="home__section__text">
+          <h2>Hello World</h2>
+          <p>Once upon a time, there was a boy named manasseh</p>
+        </div>
       </div>
     </div>
   );
