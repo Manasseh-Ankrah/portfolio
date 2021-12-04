@@ -3,8 +3,11 @@ import Header from "../components/Header";
 import "./Home.css";
 import ParticlesBg from "particles-bg";
 import { Button } from "@material-ui/core";
-
 import img from "../images/team-1.jpg";
+import Coffee from "@mui/icons-material/Coffee";
+import Person from "@mui/icons-material/Person";
+import Bag from "@mui/icons-material/BackpackOutlined";
+import Experience from "@mui/icons-material/TravelExploreOutlined";
 
 function Home() {
   return (
@@ -15,8 +18,8 @@ function Home() {
       </div>
 
       <div className="home__text">
-        <h2> MANASSEH ANKRAH</h2>
-        <p>More than 10 years of creating digital solutions</p>
+        <h2> Hello I'm Manasseh Ankrah</h2>
+        <p>Welcome to my Portfolio Website.🥰😃💕💖😍</p>
         <div className="home__btn">
           <Button className="home__btn__port" variant="contained" size="large">
             Portfolio
@@ -27,7 +30,7 @@ function Home() {
             variant="contained"
             size="large"
           >
-            Contact
+            About Me
           </Button>
         </div>
       </div>
@@ -54,9 +57,39 @@ function Home() {
 
       {/* dsdfd */}
 
-      {/* <div className="home__section">
-        <p style={{ color: "white" }}>Hello world</p>
-      </div> */}
+      <div className="home__icons__section">
+        <div className="home__icons__div">
+          <Bag className="home__icons__item" />
+          <div className="home__icons__element">
+            <h4>30</h4>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+
+        <div className="home__icons__div">
+          <Person className="home__icons__item" />
+          <div className="home__icons__element">
+            <h4>30</h4>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <div className="home__icons__div">
+          <Experience className="home__icons__item" />
+          <div className="home__icons__element">
+            <h4>3yrs</h4>
+            <p>Experience</p>
+          </div>
+        </div>
+
+        <div className="home__icons__div">
+          <Coffee className="home__icons__item" />
+          <div className="home__icons__element">
+            <h4>3028</h4>
+            <p>Cups of Coffee</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

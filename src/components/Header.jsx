@@ -28,7 +28,7 @@ function Header() {
         <ul className="header__menu">
           <p className="header__menu__list">Home</p>
           <p className="header__menu__list">About</p>
-          <p className="header__menu__list">Portfopo</p>
+          <p className="header__menu__list">Portfolio</p>
           <p className="header__menu__list">Pages</p>
           <p className="header__menu__list">Blog</p>
           <p className="header__menu__list">Contact</p>

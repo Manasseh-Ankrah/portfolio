@@ -21,10 +21,7 @@ import WhatshotIcon from "@mui/icons-material/Whatshot";
 import SubscriptionIcon from "@mui/icons-material/Subscriptions";
 import VideoLibraryIcon from "@mui/icons-material/VideoLibrary";
 import HistoryIcon from "@mui/icons-material/History";
-import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
-import WatchLaterIcon from "@mui/icons-material/WatchLater";
-import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
-import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import { Facebook, GitHub, LinkedIn } from "@material-ui/icons";
 import Phone from "@mui/icons-material/Phone";
 
 export default function SidebarDrawer() {
@@ -77,21 +74,6 @@ export default function SidebarDrawer() {
       title: "Contact",
       icon: Phone,
     },
-    // {
-    //   path: "/watch_later",
-    //   title: "Watch Later",
-    //   icon: WatchLaterIcon,
-    // },
-    // {
-    //   path: "/liked_videos",
-    //   title: "Liked videos",
-    //   icon: ThumbUpAltIcon,
-    // },
-    // {
-    //   path: "/show_more",
-    //   title: "Show More",
-    //   icon: ExpandMoreOutlinedIcon,
-    // },
   ];
 
   const list = (anchor) => (
@@ -102,6 +84,13 @@ export default function SidebarDrawer() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
+      <div className="drawer__icons__div">
+        <GitHub className="drawer__icon" />
+        <Facebook className="drawer__icon" />
+        <LinkedIn className="drawer__icon" />
+      </div>
+      <Divider className="drawer__divivider" />
+
       {sidebarObjects.map((items) => (
         <List key={items.title}>
           {/* <Link to={items.path} className="link__style"> */}

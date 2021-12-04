@@ -2,3 +2,24 @@
   color: #fff;
   font-size: 2rem;
 }
+
+.drawer__icons__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawer__divivider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.drawer__icon {
+  color: gray;
+  font-size: 3rem;
+  padding: 15px;
+}
+
+.drawer__icon:hover {
+  color: #fe3e57;
+}
