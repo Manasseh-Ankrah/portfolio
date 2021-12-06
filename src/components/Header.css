@@ -55,14 +55,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  /* width: 100px; */
 }
 
-.header__menu > p {
-  font-size: 15px;
+.header__menu__list {
+  font-size: 18px;
   font-weight: 600;
   margin-left: 40px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .header__menu__list:hover {

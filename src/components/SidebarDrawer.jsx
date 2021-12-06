@@ -13,6 +13,7 @@ import "./SidebarDrawer.css";
 
 import IconButton from "@mui/material/IconButton";
 import { Link } from "react-router-dom";
+
 import SidebarRow from "./SidebarRow";
 import HomeIcon from "@mui/icons-material/Home";
 // import MailIcon from "@mui/icons-material/Mail";
@@ -60,11 +61,6 @@ export default function SidebarDrawer() {
       icon: SubscriptionIcon,
     },
     {
-      path: "/pages",
-      title: "Pages",
-      icon: VideoLibraryIcon,
-    },
-    {
       path: "/blog",
       title: "Blog",
       icon: HistoryIcon,
@@ -93,9 +89,9 @@ export default function SidebarDrawer() {
 
       {sidebarObjects.map((items) => (
         <List key={items.title}>
-          {/* <Link to={items.path} className="link__style"> */}
-          <SidebarRow selected Icon={items.icon} title={items.title} />
-          {/* </Link> */}
+          <Link to={items.path} className="link__style">
+            <SidebarRow selected Icon={items.icon} title={items.title} />
+          </Link>
         </List>
       ))}
 

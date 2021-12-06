@@ -8,6 +8,7 @@ import Coffee from "@mui/icons-material/Coffee";
 import Person from "@mui/icons-material/Person";
 import Bag from "@mui/icons-material/BackpackOutlined";
 import Experience from "@mui/icons-material/TravelExploreOutlined";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -89,6 +90,10 @@ function Home() {
             <p>Cups of Coffee</p>
           </div>
         </div>
+      </div>
+
+      <div className="home__footer">
+        <Footer />
       </div>
     </div>
   );

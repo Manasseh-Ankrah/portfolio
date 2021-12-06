@@ -4,6 +4,7 @@
   flex-direction: column;
   /* overflow-x: auto; */
   background-color: #201e43;
+  text-align: center;
 }
 
 .home__animation {
@@ -117,7 +118,7 @@
 
 .home__section__text h2 {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
   /* width: 500px; */
   /* flex-direction: column; */
@@ -128,8 +129,10 @@
 }
 
 .home__section__text p {
-  /* display: flex;
-  justify-content: flex-start; */
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+
   color: #fff;
   margin-bottom: 50px;
   width: 600px;
@@ -142,16 +145,18 @@
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-  top: 130px !important;
+  top: 150px !important;
   background-color: rgb(211, 208, 208);
   /* height: 50%;
   height: 100%; */
   width: 100vw;
   /* margin-top: 40px; */
+  /* background-image: url("../images/team-1.jpg");
+  background-repeat: no-repeat; */
 }
 
 .home__icons__div {
-  height: 170px;
+  height: 180px;
   width: 300px;
   margin-top: 20px;
 }
@@ -181,6 +186,11 @@
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
   margin-top: -10px;
+}
+
+.home__footer {
+  position: relative;
+  top: 130px !important;
 }
 
 /* MEDIA QUERY SECTION.......................................... */
@@ -360,6 +370,12 @@
 }
 
 /* For Section */
+
+@media screen and (max-width: 710px) {
+  .home__icons__section {
+    margin-bottom: 130px;
+  }
+}
 
 @media screen and (max-width: 990px) {
   .home__section {

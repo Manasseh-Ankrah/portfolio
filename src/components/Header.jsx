@@ -26,12 +26,21 @@ function Header() {
 
       <div className="header__nav">
         <ul className="header__menu">
-          <p className="header__menu__list">Home</p>
-          <p className="header__menu__list">About</p>
-          <p className="header__menu__list">Portfolio</p>
-          <p className="header__menu__list">Pages</p>
-          <p className="header__menu__list">Blog</p>
-          <p className="header__menu__list">Contact</p>
+          <Link to="/" className="header__menu__list">
+            <p className="">Home</p>
+          </Link>
+          <Link to="/about" className="header__menu__list">
+            <p>About</p>
+          </Link>
+          <Link to="/portfolio" className="header__menu__list">
+            <p>Portfolio</p>
+          </Link>
+          <Link to="/blog" className="header__menu__list">
+            <p>Blog</p>
+          </Link>
+          <Link to="/contact" className="header__menu__list">
+            <p>Contact</p>
+          </Link>
         </ul>
       </div>
 
