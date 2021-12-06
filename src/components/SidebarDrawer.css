@@ -23,3 +23,10 @@
 .drawer__icon:hover {
   color: #fe3e57;
 }
+
+.link__style {
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  text-decoration: none;
+}
