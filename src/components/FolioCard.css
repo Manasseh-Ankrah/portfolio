@@ -1,0 +1,10 @@
+.foliocard:hover {
+  transform: scale(1.04);
+}
+
+@media screen and (max-width: 500px) {
+  .foliocard {
+    max-width: 300px;
+    transition-delay: 10s;
+  }
+}

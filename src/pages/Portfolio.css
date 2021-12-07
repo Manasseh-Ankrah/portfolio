@@ -1,0 +1,56 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio__bg {
+  width: 100vw;
+  height: 250px;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.portfolio__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.portfolio__text h2 {
+  /* font-size: 40px;
+  font-weight: 600;
+  margin-top: 40px; */
+
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0px;
+  line-height: 70px;
+  color: #fe3e57;
+  background-color: transparent;
+}
+
+.portfolio__card__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* z-index: 1; */
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.portfolio__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio__bg {
+    height: 140px;
+  }
+}

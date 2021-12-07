@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Portfolio from "./pages/Portfolio";
 // git remote set-url origin https://github.com/Manasseh-Ankrah/luxury_ecom.git
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        {/* <Route path="/blog" element={<Blog />} /> */}
       </Routes>
     </BrowserRouter>
   );
