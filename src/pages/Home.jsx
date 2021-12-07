@@ -20,7 +20,7 @@ function Home() {
 
       <div className="home__text">
         <h2> Hello I'm Manasseh Ankrah</h2>
-        <p>Welcome to my Portfolio Website.🥰😃💕💖😍</p>
+        <p>Welcome to my Portfolio Website.💖😍</p>
         <div className="home__btn">
           <Button className="home__btn__port" variant="contained" size="large">
             Portfolio

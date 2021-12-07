@@ -10,8 +10,11 @@ import Typography from "@material-ui/core/Typography";
 
 export default function FolioCard({ title, image, price, rating, category }) {
   return (
-    <Card className="foliocard" style={{ marginBottom: 30 }}>
-      <CardActionArea style={{ width: 330 }}>
+    <Card
+      className="foliocard"
+      style={{ marginBottom: 30, marginLeft: 15, marginRight: 15 }}
+    >
+      <CardActionArea style={{ width: 310 }}>
         <CardMedia
           //   className="productCard"
           component="img"

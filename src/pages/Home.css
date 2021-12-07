@@ -243,7 +243,7 @@
   }
 
   .home__text {
-    margin-top: 180px;
+    margin-top: 10px;
   }
 
   .home__text > h2 {
@@ -306,8 +306,8 @@
   }
 
   .home__text > h2 {
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 35px;
+    line-height: 50px;
   }
   .home__btn__port {
     width: 150px;
