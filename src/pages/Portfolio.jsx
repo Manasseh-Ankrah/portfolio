@@ -3,7 +3,7 @@ import "./Portfolio.css";
 import Header from "../components/Header";
 import FolioCard from "../components/FolioCard";
 
-import img_1 from "../images/code_1.jpeg";
+import img_1 from "../images/code_2.jpeg";
 import img_2 from "../images/jew1.jpeg";
 import img_3 from "../images/jew2.jpeg";
 import img_4 from "../images/jew3.jpeg";
@@ -11,6 +11,8 @@ import img_5 from "../images/jew4.jpeg";
 import img_6 from "../images/jew5.jpeg";
 import img_7 from "../images/jew6.jpeg";
 import img_8 from "../images/jew8.jpg";
+
+// import img_1 from "../images/code_2.jpeg";
 
 import Footer from "../components/Footer";
 

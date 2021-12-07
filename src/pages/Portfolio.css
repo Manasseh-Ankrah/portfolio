@@ -2,14 +2,15 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 .portfolio__bg {
   width: 100vw;
-  height: 250px;
+  height: 400px;
   object-fit: cover;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  /* background-position: center; */
 }
 
 .portfolio__container {
@@ -37,7 +38,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* z-index: 1; */
   margin-top: 10px;
   flex-wrap: wrap;
 }
